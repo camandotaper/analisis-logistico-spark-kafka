@@ -1,0 +1,7 @@
+# Dependencia del productor de eventos Kafka
+kafka-python==3.0.12
+
+# PySpark debe corresponder con la instalacion de Apache Spark del entorno.
+# En BIGDATA se utilizo Apache Spark 3.5.8, que incluye PySpark.
+# Si se crea un entorno Python independiente, puede instalarse con:
+# pyspark==3.5.8
